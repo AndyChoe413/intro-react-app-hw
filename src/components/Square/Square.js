@@ -5,7 +5,7 @@ export class Square extends Component {
     render() {
         return (
             <div>
-                <img src={this.props.siargao} alt={this.props.name}/>
+                <img className="image" src={this.props.siargao} alt={this.props.name}/>
                 <span>
                     {this.props.name}
                 </span>
